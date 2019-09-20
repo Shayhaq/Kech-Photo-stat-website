@@ -508,7 +508,38 @@ ul li a:hover{
   padding: 0  1rem;
 }
 @media only screen and (max-width:900px){
+  .contactuspage{
+    width: 150%;
+    display: block;
+    position: relative;
+  }
+  .contactuspage .contact-frm {
+    position: absolute !important;
+    display: flex !important;
+    margin-top: 3rem;
+    bottom: 0% !important;
+    padding: 1rem 0;
+    
+    left: -10rem;
+    
+}
+.contactuspage .contact-frm button{
+  top: 83%;
+  right: -5%;
+  position: absolute;
+  display: block;
+}
+.contact-frm label > input {
+  display: block;
+  padding: 3rem 0;
+  width: 100% !important;
+  position: relative;
+  
+}
 
+.contactuspage .Email-us {
+  display: none;
+}
 nav{
   display: none;
 }
