@@ -1,0 +1,18 @@
+
+@media only screen and (max-width: 900px) {
+    .contactuspage .contact-frm {
+        position: relative;
+        display: block;
+        padding: 1rem 0;
+        right: 3rem;
+        width: 100%;
+        top: 100%;
+      }
+      .contactuspage .contact-frm button {
+       
+      
+      }
+      .contactuspage .Email-us {
+        display: block;
+      }
+}

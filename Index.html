@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fontawesome-free-5.10.2-web/css/all.css">
+  <title>Kech Photo Stat</title>
+  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>  
+      <header>
+        <div class="logo"><a class="logo"href="#"><img src="img/logo.png" alt="Kech Photo Stat"></a></div>
+          <nav>
+            <ul>
+              <li><a href="Portfolio">Home</a></li>
+              <li><a href="#wrapper-section">Services</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+            </ul>
+            <button class="contact">Contact</button>
+          </nav>
+          <div class="hamburger" onclick="togglenavbarstatus()"></div>
+      </header>
+      <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#wrapper-section">Services</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </aside>
+       </div>
+       <!---main-wrapper starts here-
+   <div class="wrapper-main">
+    <div class="wrapper-slider">
+      <div id="box"> 
+         <img src="a.jpg" alt="kech photo stat banner"> 
+      </div>
+         <button class="prevbtn fas fa-arrow-right" onclick="nextImage()"></button>
+         <button class="nextbtn fas fa-arrow-left" onclick="prewImage()"> </button>
+    </div>-->
+    <!-- new slider starts here!-->
+    <div class="slider">
+      <div class="slide current">
+          <div class="content">
+              <h1>Welcome</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non
+              </p>
+          </div>
+      </div>
+      <div class="slide">
+          <div class="content">
+              <h1>Slide 2</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
+
+              </p>
+          </div>
+      </div>
+      <div class="slide">
+          <div class="content">
+              <h1>Slide 3</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
+
+              </p>
+          </div>
+      </div>
+     <!-- <div class="slide">
+          <div class="content">
+              <h1>Slide 4</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
+
+              </p>
+          </div>
+      </div>
+      <div class="slide">
+          <div class="content">
+              <h1>Slide 5</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
+              </p>
+          </div>
+      </div>
+      <div class="slide">
+          <div class="content">
+              <h1>Slide 6</h1>
+              <p>Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
+              </p>
+          </div>
+      </div>-->
+  </div>
+  <div class="buttons">
+      <button id="prew"><span class="fas fa-arrow-left"></span></button>
+      <button id="next"><span class="fas fa-arrow-right"></span></button>
+  </div>
+    <h1>Welcome to Kech Photo Stat</h1>
+    <section class="welcome">
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Illum, quo atque voluptas, tempore obcaecati 
+         earum aperiam omnis mollitia aspernatur,
+          exercitationem dolores eligendi! 
+        A error quos eveniet optio saepe! Similique, excepturi dolorum. Blanditiis sunt autem similique. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quasi praesentium excepturi aperiam ullam voluptas quia nostrum nulla, beatae et deserunt fuga ab molestiae, ipsam dolor eaque facilis tempore asperiores, nihil sed quae nam quod! Ratione, iusto dolores hic dolor corporis quod eum impedit sit. Necessitatibus ut, cupiditate aperiam iusto nemo doloremque architecto reprehenderit repudiandae facilis! Tenetur iste a provident.
+      </p>
+    </section>
+    <section id="wrapper-section" class="wrapper-section bg-color">
+       <h2>Services</h2> 
+     <div class="grid-container">
+      <div class="section-items">
+        <span class="fas"><img width="120px"src="img/printer.png" alt=""></span>
+         <h1>Photo Stat Services</h1>
+         <ul>
+           <li>Photo Copy</li>
+           <li>Color Copy</li>
+           <li>Lamination</li>
+           <li>Cnic/ Cards Duplicate</li>
+           <li>And Much More</li>
+         </ul>
+      </div>
+        <div class="section-items-2 section-items">
+          <span class="fas fa-camera fa-5x"></span>
+           <h1>Photo Services</h1>
+           <ul>
+               <li>Passport Size/ Card Size Photos</li>
+               <li>Photo Albums</li>
+               <li>Photo Manipulations</li>
+               <li>Background Replacement</li>
+               <li>Photo Frames </li>
+               <li>And Much More</li>
+             </ul>
+        </div>
+        <div class="section-items-3 section-items">
+          <i class="fas fa-book fa-5x"></i>
+           <h1>Stationary Products</h1>
+          <ul>
+        
+                <li> Registers</li>
+                <li>Copies</li>
+                <li>pens</li>
+                <li>Staplers</li>
+                <li>File Covers</li>
+                <li>And Much More</li> 
+          </ul>
+        </div>
+       </div>
+    </section> 
+   </div>
+    <section id="aboutus">
+      <h2></h2>
+      <div class="wrapper-sec-about-us">
+        <div class="info">
+          <h2>About us</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, eos? 
+            Vero sit adipisci mollitia eius in porro deserunt
+             perspiciatis magni eaque ea vel eum necessitatibus, 
+             inventore corrupti delectus assumenda id rerum. Excepturi natus, vitae praesentium repudiandae accusantium assumenda voluptates 
+            molestias magni fuga, pariatur repellat accusamus 
+            iure, et quod iste perspiciatis?
+          </p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, eos? 
+              Vero sit adipisci mollitia eius in porro deserunt
+               perspiciatis magni eaque ea vel eum necessitatibus, 
+               inventore corrupti delectus assumenda id rerum. Excepturi natus, vitae praesentium repudiandae accusantium assumenda voluptates 
+              molestias magni fuga, pariatur repellat accusamus 
+              iure, et quod iste perspiciatis?
+            </p>
+        </div>
+        <div class="info-img">
+          <img src="img/abtimg.jfif" alt="kech Photo Stat About">
+        </div>
+      </div>
+      <div class="wrapper-sec-about-us">
+          <div class="info-img">
+              <img src="img/abtimg.jfif" alt="kech Photo Stat About">
+            </div>
+        <div class="info">
+          
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, eos? 
+            Vero sit adipisci mollitia eius in porro deserunt
+             perspiciatis magni eaque ea vel eum necessitatibus, 
+             inventore corrupti delectus assumenda id rerum. Excepturi natus, vitae praesentium repudiandae accusantium assumenda voluptates 
+            molestias magni fuga, pariatur repellat accusamus 
+            iure, et quod iste perspiciatis?
+          </p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, eos? 
+              Vero sit adipisci mollitia eius in porro deserunt
+               perspiciatis magni eaque ea vel eum necessitatibus, 
+               inventore corrupti delectus assumenda id rerum. Excepturi natus, vitae praesentium repudiandae accusantium assumenda voluptates 
+              molestias magni fuga, pariatur repellat accusamus 
+              iure, et quod iste perspiciatis?
+            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero necessitatibus impedit quos veniam accusamus eaque rerum suscipit est praesentium saepe.</p>
+        </div>
+      </div>
+    </section>    
+  <footer class="footer-grid">
+    <div class="useful-links">
+      <h5>Useful Links</h5>
+      <ul>
+          <li><a href="Portfolio">Home</a></li>
+          <li><a href="#wrapper-section">Services</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="about us">Contact</a></li>
+        </ul>
+    </div>
+    <div class="social-media-links">
+        <h5>Connect With us</h5>
+        <ul>
+          <li><a href=""><span class="fab fa-facebook fa-2x"></span> Facebook</a></li>
+         <li> <a href=""><span class="fab fa-twitter fa-2x"></span>Twitter</a></li>
+          <li><a href=""><span class="fab fa-instagram fa-2x"></span>Instagram</a></li>
+          <li><a href=""><span class="fab fa-whatsapp fa-2x"></span>Whatsapp</a></li>
+      </ul>
+      </div>
+      <div class="Newsletter">
+        <h5>Subscribe to our Newsletter</h5>
+        <p>Lorem ipsum dolor sit, amet consectetur 
+          adipisicing elit. Temporibus ipsa maiores
+           possimus ipsum repellendus vitae distinctio
+           minus libero perspiciatis cupiditate.</p>
+           <div class="subscribe">
+           <input type="text" placeholder="Email">
+           <button>Subscribe</button>
+          </div>
+      </div>
+  </footer>  
+   
+
+   <!--javascript starts here-->
+  <script src="main.js">
+  
+  </script>
+</body>
+</html>
