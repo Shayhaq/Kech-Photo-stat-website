@@ -307,7 +307,9 @@ h1{
   margin: auto;
 }
 .welcome p{
-  font-size: 17px;
+  font-size: 18px;
+  font-weight: 450;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000;
   letter-spacing: 1px;
   line-height: 35px;
@@ -690,14 +692,15 @@ font-size: 19px;
 }
 }
 
+ 
+/*newest slider starts here...*/
 .slider{
   position: relative;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
   
-}
-/*newest slider starts here...*/
+} 
 .slide{
   position: absolute;
   top: 4rem;
