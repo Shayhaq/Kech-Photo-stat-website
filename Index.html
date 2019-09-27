@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="fontawesome-free-5.10.2-web/css/all.css">
   <title>Kech Photo Stat</title>
-  <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet"> -->
 </head>
 <body>  
       <header>
@@ -21,7 +21,7 @@
               <li><a href="#wrapper-section">Services</a></li>
               <li><a href="#aboutus">About Us</a></li>
             </ul>
-            <button class="contact">Contact</button>
+            <a href="contact.html"><button class="contact">Contact</button></a>
           </nav>
           <div class="hamburger" onclick="togglenavbarstatus()"></div>
       </header>
@@ -35,16 +35,6 @@
             </ul>
         </aside>
        </div>
-       <!---main-wrapper starts here-
-   <div class="wrapper-main">
-    <div class="wrapper-slider">
-      <div id="box"> 
-         <img src="a.jpg" alt="kech photo stat banner"> 
-      </div>
-         <button class="prevbtn fas fa-arrow-right" onclick="nextImage()"></button>
-         <button class="nextbtn fas fa-arrow-left" onclick="prewImage()"> </button>
-    </div>-->
-    <!-- new slider starts here!-->
     <div class="slider">
       <div class="slide current">
           <div class="content">
@@ -65,33 +55,9 @@
           <div class="content">
               <h1>Slide 3</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
-
               </p>
           </div>
       </div>
-     <!-- <div class="slide">
-          <div class="content">
-              <h1>Slide 4</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
-
-              </p>
-          </div>
-      </div>
-      <div class="slide">
-          <div class="content">
-              <h1>Slide 5</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
-              </p>
-          </div>
-      </div>
-      <div class="slide">
-          <div class="content">
-              <h1>Slide 6</h1>
-              <p>Lorem ipsum dolor sit amet consectetur 
-                  adipisicing elit. Maxime cum optio repudiandae, suscipit magnam non?
-              </p>
-          </div>
-      </div>-->
   </div>
   <div class="buttons">
       <button id="prew"><span class="fas fa-arrow-left"></span></button>
@@ -197,15 +163,23 @@
         </div>
       </div>
     </section>    
+    <section class="nw-letter">
+      <h2> Subscribe to our Newsletter</h2>
+      <h6>Leave your email address for exciting new offers and product launches!</h6>
+      <div class="subscribe">
+          <input type="text" placeholder="Email" class="nw-input">
+          <button>Subscribe</button>
+          </div>
+  </section>
   <footer class="footer-grid">
     <div class="useful-links">
       <h5>Useful Links</h5>
       <ul>
-          <li><a href="Portfolio">Home</a></li>
-          <li><a href="#wrapper-section">Services</a></li>
-          <li><a href="#aboutus">About Us</a></li>
-          <li><a href="about us">Contact</a></li>
-        </ul>
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="#wrapper-section">Services</a></li>
+      <li><a href="#aboutus">About Us</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      </ul>
     </div>
     <div class="social-media-links">
         <h5>Connect With us</h5>
@@ -216,17 +190,10 @@
           <li><a href=""><span class="fab fa-whatsapp fa-2x"></span>Whatsapp</a></li>
       </ul>
       </div>
-      <div class="Newsletter">
-        <h5>Subscribe to our Newsletter</h5>
-        <p>Lorem ipsum dolor sit, amet consectetur 
-          adipisicing elit. Temporibus ipsa maiores
-           possimus ipsum repellendus vitae distinctio
-           minus libero perspiciatis cupiditate.</p>
-           <div class="subscribe">
-           <input type="text" placeholder="Email">
-           <button>Subscribe</button>
-          </div>
-      </div>
+      <div class="social-media-links">
+        <h5>Find us on Map</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.8657125821287!2d63.05440681434513!3d26.00521600482654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ec759a669de0289%3A0x8115e914df99bd97!2sKech%20Photo%20Stat%20and%20Studio%2C%20Stationary!5e0!3m2!1sen!2s!4v1569514912084!5m2!1sen!2s"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
   </footer>  
    
 
