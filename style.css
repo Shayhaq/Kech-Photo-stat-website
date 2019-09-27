@@ -180,9 +180,26 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-  border-bottom: 2px  solid #ff1010;
-  opacity: 0.8;
-  color: black;
+  
+  color: rgb(51, 54, 219);
+} 
+nav ul ul {
+	display: none;
+	position: absolute; 
+  top: 50px; /* the height of the main nav */
+  
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+nav ul ul li {
+	width:170px;
+  float:none;
+  background: #fff;
+	display:list-item;
+  position: relative;
 }
 .contact {
   display: inline-block;
